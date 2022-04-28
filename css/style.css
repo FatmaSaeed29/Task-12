@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,300;1,500;1,600&family=Big+Shoulders+Display:wght@700&family=Lalezar&family=Open+Sans:ital,wght@0,300;1,300;1,400;1,500&family=Overpass:wght@300;600&family=Poppins:wght@400;500;600;700&family=Raleway:ital,wght@0,500;0,600;0,800;1,300;1,700&family=Rubik:wght@300;400;500&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    background-color: hsl(226, 43%, 10%);
+    overflow-x: hidden;
+    height: 600px;
+}
+.one
+{
+    margin-top: 100px;
+    width: 1118px;
+}    
+
+.all .fix
+{
+    border: 1px solid #fff;
+    height: 100px;
+}
+.all .fix2
+{
+    margin-left: 285px;
+}
+.left
+{
+    height: 483px  !important;
+    background-color: hsl(235, 45%, 61%);
+    border: none !important;
+    border-radius: 20px;
+}
+.all .left img
+{
+    max-height: 60px;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.all .left p
+{
+    color: hsl(236, 100%, 87%);
+    margin-top: 11px;
+    margin-bottom: 1rem;
+}
+.all .left h2
+{
+    font-weight:lighter;
+    margin-top: -15px;
+}
+.all .left .inside
+{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    height: 219px;
+    width: 282px;
+    margin-left: -16px;
+    margin-top: 21px;
+}
+.all .work 
+{
+    background-color: hsl(15, 100%, 70%);
+    height: 205px;
+    border: none !important;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0px 5px;
+    position: relative;
+}
+.all .work2 .inside-work
+{
+    width:  286px !important;
+}
+.all .work2 .inside-work h1
+{
+    margin-top: -20px !important;
+}
+.all .work .img1
+{
+    height: 70px;
+    margin-top: -8px;
+    float: right;
+    z-index: -1;
+    
+}
+.all .work .inside-work
+{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px ;
+    margin-top: 45px;
+    height: 220px;
+    overflow: visible !important;
+    width: 287px;
+    margin-left: -16px;
+    z-index: 2;
+    position:absolute;
+    display: block;
+}
+.all .work .inside-work .special
+{
+    margin-top: 20px;
+}
+.all .work .inside-work .special h5
+{
+    margin-top: 28px;
+    font-weight:lighter;
+}
+.all .work .inside-work .special img
+{
+    float: right;
+    margin-top: -19px;
+}
+.all .work .inside-work .special .img2
+{
+    float: none;
+    margin-left: 196px;
+    margin-top: -65px;
+}
+.all .work .inside-work h1
+{
+    display: block;
+    margin-top: 17px;
+    font-weight:lighter;
+}
+.all .work .inside-work p
+{
+    color: hsl(236, 100%, 87%);
+}
+.all .top
+{
+    margin-top: -205px  !important;
+    margin-left: 270px;
+    width: 1095px;
+}
+.work3
+{
+    width: 200px;
+}
+@media(max-width:375px)
+{
+    .left
+    {
+        height: 325px  !important;
+        margin-bottom: 35px;
+        width: 521px;
+    }
+    .all .left img
+    {
+        max-height: 100px;
+        margin-top: 27px;
+        border-radius: 50%;
+        margin-right: 42px;
+    }
+    .all .left .flex
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .all .left .inside-flex
+    {
+        display: block;
+    }
+    .all .left .inside
+    {
+        display: flex;
+        height: 146px;
+        width: 521px;
+        justify-content: space-between;
+    }
+    .all .left .inside p
+    {
+        font-size: xx-large;
+        margin-top: 32px;
+    }
+    .all .left .inside h4
+    {
+        font-size: xx-large;
+        margin-top: 32px;
+    }
+    .all .work1
+    {
+        /* width: 521px !important; */
+    }
+}
